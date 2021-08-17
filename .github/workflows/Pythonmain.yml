@@ -30,6 +30,6 @@ jobs:
     - name: Sleep
       run: |
         sleep 3
-    - name: Run 2e2
+    - name: Run e2e
       run: |
         make tests-e2e
